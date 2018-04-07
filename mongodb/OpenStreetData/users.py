@@ -3,4 +3,4 @@ def process_map(filename):
     for _, element in ET.iterparse(filename):
         if "uid" in element.attrib:
             users.add(element.attrib["uid"])
-return users
+    return users
